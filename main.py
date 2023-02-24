@@ -34,7 +34,7 @@ def reply(msg):
         markup = types.InlineKeyboardMarkup()
         btn_github = types.InlineKeyboardButton("Ссылка на GitHub", url="https://github.com/etoyadadaya/py-automation")
         markup.add(btn_github)
-        bot.send_message(msg.chat.id, "Привет, {0.first_name}! Нажми на кнопку и перейди на сайт".format(msg.from_user),
+        bot.send_message(msg.chat.id, "Привет!!!, {0.first_name}! Нажми на кнопку и перейди на сайт".format(msg.from_user),
                          reply_markup=markup)
 
 
